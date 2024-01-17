@@ -12,23 +12,35 @@ td {
   background-color: #9C9583;
 }
 
-td:hover {
+#goSomewhere:hover {
   background-color: #7d7769;
 }
 
 #goSomewhere {
-  background-color: #C1BCAC;
-  height: 50px;
-  width: 150px;
-  font-size: 15px;
-  border-radius: 15px;
-  margin: 20px;
+  background-color: #b0aa95;
+  height: 30px;
+  width: 168px;
+  border: #7d7769;
+  margin: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 25px;
 }
 
 #img {
   margin: 20px;
   height: 250px;
-  border-radius: 25px;
+  border-radius: 50px;
+}
+
+#header {
+  margin: 30px;
+  background-color: #9C9583;
+  height: 25px;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=HomeStyle.css.map */

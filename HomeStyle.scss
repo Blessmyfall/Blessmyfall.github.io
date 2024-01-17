@@ -1,6 +1,7 @@
 $color2: #9C9583;
 $color6: #C1BCAC;
 $color11: #7d7769;
+$color7: #b0aa95;
 
 html {
     background-color: $color6;
@@ -8,26 +9,41 @@ html {
     display: flex;
     text-align: center;
 }
-td{
+#tdata{
     height: 220px;
     width: 220px;
     border-radius: 25px;
     background-color: $color2;
 }
-td:hover{
+#goSomewhere:hover{
     background-color: $color11;
 }
 #goSomewhere{
-    background-color: $color6;
-    height: 50px;
-    width: 150px;
-    font-size: 15px;
-    border-radius: 15px;
-    margin: 20px;
+    background-color: $color7;
+    height: 30px;
+    width: 168px;
+    border: $color11;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 25px;
 }
 #img{
     margin: 20px;
     height:250px;
-    border-radius: 25px;
+    border-radius: 50px;
+
+}
+#header{
+    margin: 30px;
+    background-color: $color2;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 15px;
+}
+#categories{
+    background-color: $color2;
     
 }
