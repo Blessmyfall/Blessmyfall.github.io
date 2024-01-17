@@ -1,0 +1,33 @@
+$color2: #9C9583;
+$color6: #C1BCAC;
+$color11: #7d7769;
+
+html {
+    background-color: $color6;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+td{
+    height: 220px;
+    width: 220px;
+    border-radius: 25px;
+    background-color: $color2;
+}
+td:hover{
+    background-color: $color11;
+}
+#goSomewhere{
+    background-color: $color6;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 20px;
+}
+#img{
+    margin: 20px;
+    height:250px;
+    border-radius: 25px;
+    
+}
